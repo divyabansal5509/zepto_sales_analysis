@@ -1,6 +1,82 @@
 # zepto_sales_analysis
+---
+# 🛒 Zepto Sales Analysis using PostgreSQL & Power BI
+
+An end-to-end data analytics project that transforms raw grocery sales data into actionable business insights using PostgreSQL and Power BI.
+
+The project follows a complete analytics workflow including data cleaning, transformation, reporting, and dashboard development to help analyze sales performance, outlet efficiency, product trends, and customer behavior.
 
 ---
+
+## 📊 Dashboard Preview
+
+![Dashboard](images/dashboard.png)
+
+## Project Objectives
+
+- Analyze overall sales performance.
+- Compare outlet performance across locations and outlet sizes.
+- Identify top-performing product categories.
+- Evaluate sales by product fat content.
+- Monitor outlet establishment trends.
+- Build an interactive dashboard for business users.
+
+## 📖 Project Overview
+
+This project analyzes grocery sales data from Zepto to identify key business insights.
+
+The workflow includes:
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Business KPI Development
+- Interactive Dashboard Creation
+
+## Project Workflow
+Raw CSV Dataset
+        │
+        ▼
+Bronze Layer
+(Raw Import)
+        │
+        ▼
+Silver Layer
+(Data Cleaning & Standardization)
+        │
+        ▼
+Gold Layer
+(Reporting Views)
+        │
+        ▼
+Power BI Dashboard
+The final dashboard enables users to explore sales performance using dynamic filters and interactive visualizations.
+
+
+## Dashboard Features
+
+### KPI Cards
+
+- Total Sales
+- Average Sales
+- Total Items
+- Average Rating
+
+### Visualizations
+
+- Sales by Product Category
+- Sales by Outlet Size
+- Sales by Outlet Type
+- Sales by Outlet Location
+- Sales Trend by Establishment Year
+- Fat Content Analysis
+
+### Filters
+
+- Outlet Location
+- Outlet Size
+- Product Category
+- 
 ## Key Metrics
 
 1. Essential Data Points Driving Zepto's Success
@@ -26,3 +102,26 @@
 5. Customer Preferences: Customers in 'Tier 3' cities have shown the highest spending.
 6. Type of Food: The low fat food is dominating the food category with around 64.6% of total sales.
 7. Zepto Sales Analysis - Power BI Dashboard
+8. Tier 3 outlets generated the highest sales.
+9. Medium-sized outlets contributed the largest revenue share.
+10. Regular Fat products generated higher revenue than Low Fat products.
+11. Fruits and Snack Foods were the highest-selling product categories.
+12. Supermarket Type 1 recorded the highest number of items sold.
+
+## Repository Structure
+datasets/
+docs/
+images/
+scripts/
+README.md
+Zepto Sales Analysis.pbix
+
+
+## Author
+
+**Divya Bansal**
+## 📬Connect with Me
+
+- LinkedIn: https://www.linkedin.com/in/divya-bansal-5782bb303/
+- GitHub: https://github.com/divyabansal5509
+
